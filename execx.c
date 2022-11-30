@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("!!%s!! Input cannot be negative number\n", argv[2]);
+        printf("!!%s!! Please enter positive integer\n", argv[2]);
         return 0;
     }
 
@@ -47,10 +47,6 @@ int main(int argc, char *argv[])
             printf("'writef -f [filename]'                     - command for call default system bash\n");
             printf("'execx -t [occur time(integer)] [command]' - command for call default system bash\n");
             printf("\n");
-        }
-        else if (strcmp(newargv[0], "exit") == 0 && newargv[1] == NULL)
-        {
-            break;
         }
         else if ((strcmp(newargv[0], "clear") == 0 || strcmp(newargv[0], "cls") == 0) && newargv[1] == NULL)
         {
