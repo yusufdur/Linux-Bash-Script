@@ -1,2 +1,2 @@
 # Operating_System_Project
-shell program like "/bin/bash"
+Linux shell program written in C . Like "/bin/bash"
